@@ -1,0 +1,14 @@
+{
+    "policy": {
+        "type": "act",
+        "device": "cuda",
+        "push_to_hub": false,
+        "intrinsic_dim": 100
+    },
+    "batch_size": 128,
+    "num_workers": 4,
+    "wandb": {
+        "enable": true,
+        "project": "zoloft"
+    }
+}
