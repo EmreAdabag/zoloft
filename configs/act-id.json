@@ -1,9 +1,8 @@
 {
     "policy": {
-        "type": "act",
+        "type": "act_intrinsic",
         "device": "cuda",
-        "push_to_hub": false,
-        "intrinsic_dim": 100
+        "push_to_hub": false
     },
     "batch_size": 128,
     "num_workers": 4,
