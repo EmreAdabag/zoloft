@@ -9,6 +9,11 @@
     "steps": 10000,
     "eval_freq": 1000,
     "save_freq": 1000,
+    "env": {
+        "type": "libero",
+        "task": "libero_10",
+        "task_ids": [4]
+    },
     "eval": {
         "n_episodes": 10,
         "batch_size": 10,
