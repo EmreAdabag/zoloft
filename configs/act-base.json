@@ -16,8 +16,7 @@
     },
     "eval": {
         "n_episodes": 10,
-        "batch_size": 10,
-        "use_async_envs": true
+        "batch_size": 10
     },
     "wandb": {
         "enable": true,
