@@ -6,6 +6,14 @@
     },
     "batch_size": 128,
     "num_workers": 4,
+    "steps": 10000,
+    "eval_freq": 1000,
+    "save_freq": 1000,
+    "eval": {
+        "n_episodes": 10,
+        "batch_size": 10,
+        "use_async_envs": true
+    },
     "wandb": {
         "enable": true,
         "project": "zoloft"
