@@ -1,0 +1,27 @@
+{
+    "policy": {
+        "path": "emreadabag/smolvla_40x10",
+        "intrinsic_dim": 1000,
+        "device": "cuda",
+        "push_to_hub": false
+    },
+    "dataset": {
+        "repo_id": "HuggingFaceVLA/libero_task0"
+    },
+    "env": {
+        "type": "libero",
+        "task": "libero_10",
+        "task_ids": [4]
+    },
+    "eval": {
+        "n_episodes": 100,
+        "batch_size": 10
+    },
+    "wandb": {
+        "enable": true,
+        "project": "zoloft"
+    },
+    "batch_size": 32,
+    "num_workers": 4,
+    "steps": 100000
+}
