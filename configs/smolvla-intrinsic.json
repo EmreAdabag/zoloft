@@ -1,6 +1,7 @@
 {
     "policy": {
-        "path": "emreadabag/smolvla_40x10",
+        "pretrained_path": "emreadabag/smolvla_40x10",
+	"type": "smolvla",
         "intrinsic_dim": 1000,
         "device": "cuda",
         "push_to_hub": false
@@ -21,7 +22,7 @@
         "enable": true,
         "project": "zoloft"
     },
-    "batch_size": 32,
+    "batch_size": 20,
     "num_workers": 4,
     "steps": 100000
 }
