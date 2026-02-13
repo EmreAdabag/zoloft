@@ -1,12 +1,13 @@
 {
     "policy": {
-        "path": "emreadabag/smolvla_40x10",
-        "intrinsic_dim": 1000,
+        "type": "smolvla",
+        "pretrained_path": "emreadabag/smolvla_40x10",
+        "intrinsic_dim": 2,
         "device": "cuda",
         "push_to_hub": false
     },
     "dataset": {
-        "repo_id": "HuggingFaceVLA/libero_task0"
+        "repo_id": "emreadabag/libero_task0"
     },
     "env": {
         "type": "libero",
@@ -21,6 +22,7 @@
         "enable": true,
         "project": "zoloft"
     },
+    "log_freq": 1,
     "batch_size": 32,
     "num_workers": 4,
     "steps": 100000
