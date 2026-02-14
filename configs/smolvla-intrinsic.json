@@ -15,7 +15,7 @@
         "task_ids": [4]
     },
     "eval": {
-        "n_episodes": 100,
+        "n_episodes": 50,
         "batch_size": 10
     },
     "wandb": {
